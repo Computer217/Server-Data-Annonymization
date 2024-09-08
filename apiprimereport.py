@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 sys.path.append("/etc/neteng/scripts/lib/")
-from UCONNGLOBALS import *
+from XGLOBALS import *
 PRIMEGETREPORTURLSTRING = "v4/op/reportService/getReport"
 recordset = {}
 global recordnum
